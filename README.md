@@ -8,6 +8,10 @@ If you are sick of having to enter the Pokemon TCG codes one by one or scanning 
 - Pipenv https://pypi.org/project/pipenv/
 - Chrome Browser
 
+### Download Script to local PC
+
+Go to the following page and download the latest release https://github.com/AidanHarveyNelson/pokemon_tcg_redeem/releases, either zip or tar.gz. Unzip the file to a new folder then continue following the next steps of the README.
+
 ### Setting up Environment
 
 Assuming the above prerequisites have been installed already the following command will build a virtual environment. Run the below command from within this folder.
@@ -22,6 +26,7 @@ Currently this script supports either passing the codes in the command line with
 
 #### Running using a File
 
+Please specify the relative or absolute path to the file that you would like to use.
 ```
 pipenv run main.py <username> <password> -f codes.txt
 ```
